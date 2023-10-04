@@ -14,4 +14,8 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 rm -rf package/lean/luci-theme-argon
 # 添加软件包源
-git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon -b 18.06  #新的argon主题
+#git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon -b 18.06  #新的argon主题
+git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+git clone https://github.com/Zxilly/UA2F.git package/UA2F
+git clone https://github.com/Zxilly/UA2F.git package/UA2F
+
