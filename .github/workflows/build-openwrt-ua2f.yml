@@ -15,11 +15,11 @@ on:
     inputs:
       system_name:
         description: 系统名称
-        default: openwrt
+        default: catwrt
         required: true
         type: choice
         options:
-          - openwrt
+          - catwrt
           - lede
       repo_branch:
         description: 分支
@@ -96,7 +96,7 @@ jobs:
           REPO_BRANCH=master
           ;;
         *)
-          REPO_URL='https://github.com/openwrt/openwrt';;
+          REPO_URL='https://github.com/miaoermua/LEDE';;
         esac
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
