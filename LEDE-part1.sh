@@ -19,8 +19,3 @@ git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon.git package/lu
 git clone https://github.com/Zxilly/UA2F.git package/UA2F
 git clone https://github.com/CHN-beta/rkp-ipid.git package/rkp-ipid
 
-sudo apt install libfuse-dev
-rm -rf feeds/packages/lang/golang
-git clone https://github.com/sbwml/packages_lang_golang -b 20.x feeds/packages/lang/golang
-git clone https://github.com/sbwml/luci-app-alist package/alist
-
